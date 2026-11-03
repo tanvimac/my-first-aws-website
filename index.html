@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6fb;
+            color: #222;
+            text-align: center;
+        }
+
+        nav {
+            background: #172554;
+            color: white;
+            padding: 20px;
+            font-size: 22px;
+        }
+
+        .hero {
+            padding: 90px 20px;
+        }
+
+        h1 {
+            font-size: 42px;
+            color: #172554;
+        }
+
+        p {
+            font-size: 18px;
+            color: #555;
+        }
+
+        button {
+            background: #2563eb;
+            color: white;
+            border: none;
+            padding: 14px 25px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .card {
+            background: white;
+            margin: 20px auto;
+            padding: 25px;
+            max-width: 450px;
+            border-radius: 12px;
+        }
+
+        footer {
+            background: #172554;
+            color: white;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>My First Website</nav>
+
+    <section class="hero">
+        <h1>Hello, I'm Tanvi!</h1>
+        <p>Welcome to my first website hosted on AWS Cloud.</p>
+        <button onclick="showMessage()">Click Me</button>
+    </section>
+
+    <div class="card">
+        <h2>About My Website</h2>
+        <p>This is a simple website created using HTML, CSS and JavaScript.</p>
+    </div>
+
+    <footer>
+        My First AWS Deployment | 2026
+    </footer>
+
+    <script>
+        function showMessage() {
+            alert("Congratulations! Your website is working.");
+        }
+    </script>
+
+</body>
+</html>
